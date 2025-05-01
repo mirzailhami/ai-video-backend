@@ -1,0 +1,7 @@
+.git
+.gitignore
+logs/
+uploads/
+generated_images/
+venv/
+.env

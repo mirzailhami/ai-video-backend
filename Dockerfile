@@ -7,7 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-RUN mkdir -p uploads generated_images generated_videos assets logs
+RUN mkdir -p uploads generated_images assets logs
 COPY assets/generated_image_default.png assets/
 
 ENV PYTHONUNBUFFERED=1
