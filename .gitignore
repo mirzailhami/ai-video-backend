@@ -1,0 +1,30 @@
+# Python-specific
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Logs and temporary files
+*.log
+logs/
+generated_images/*
+generated_videos/*
+uploads/*
+app/ppt_parser.log
+app/llm_service.log
+app/services/*.log
+app/ppt_parser.json
+app/llm_service.json
+
+# OS-specific
+.DS_Store
+
+# Archives
+*.zip
+
+# Allow specific assets
+!assets/generated_image_default.png
